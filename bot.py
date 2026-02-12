@@ -6,7 +6,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, MessageHandler, filters, ConversationHandler, ContextTypes
 from telegram.constants import ParseMode
 
-TOKEN = ("8257333913:AAFe1GLABCtuA3zVFKq_hTI_G3Dw8VGtJJ0")
+TOKEN = os.environ.get("BOT_TOKEN")
 ADMIN_IDS = [8255927158, 6025818386]
 ADMIN_CHAT_ID = 1003594449373
 
