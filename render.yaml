@@ -1,8 +1,7 @@
 services:
   - type: web
     name: shadow-stars-bot
-    env: docker
-    dockerfilePath: ./dockerfile
+    runtime: python
     envVars:
       - key: BOT_TOKEN
         value: 8255927158:AAH3vY8zqR5xL2mN7pK9jF4gD1sA6wE2cX
